@@ -1,0 +1,23 @@
+chrome://global/skin/media/imagedoc-darknoise.png
+chrome://global/skin/media/imagedoc-lightnoise.png
+https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/DHRS7B_homology_model.png/350px-DHRS7B_homology_model.png
+
+
+
+
+
+Proteins are vital macromolecules with a variety of functions. However, to understand the functions of a protein, one must understand their structure. Proteins are made up of polypeptide chains of amino acids.  There are various biological databases that hold structural,functional and even genetic  information about different proteins. One such is the RCSB PDB.
+
+The Research Collaboratory for Structural Bioinformatics (RCSB) Protein Data Bank (PDB) provides an information web resource to biological macromolecular structures. It includes tools and resources for understanding these biological macromolecules. There are about  33,500 proteins logged in RCSB PDB .
+
+Data files from these databses are interpreted in various molecular visualization softwares and proteins are displayed as three-dimensional figures that contain quatenary structures. The data file from RCSB PDB is in a “pdb format” that contain information such as nature of molecule, experiment used, sequence residues, bonds, heteroatoms and most importantly the atomic coordinates. The atomic coordinates are usually obtained via NMR and xray cristallography.
+
+However, inorder for a programmer to visualize a protein in a visualization software, he must get accustomed to working with the software, since every software has its own command line and inbuilt functions. In this case, visualizing the protein becomes tricky, especially at a beginner level. As the first step, a programmer must understand how the protein is mapped on a 3d scale and its structural attributes and even a little bit of information of amino acids that make up the protein.
+
+Therefore the aim of my project is to create this kind of basic function that allows a user to work with a pdb file , parse out the information he requires and view the protein on a 3D scale.
+
+MATERIALS AND METHODS 
+
+Programming environment : Bio-Linux 8.0.7
+Programming languages used : Shell , python
+Text editor : gedit
